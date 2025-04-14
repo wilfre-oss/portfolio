@@ -1,0 +1,3 @@
+@echo off
+echo Starting portfolio development server...
+npm run dev 
