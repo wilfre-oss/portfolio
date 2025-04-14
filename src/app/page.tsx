@@ -396,7 +396,12 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium mb-1">Email</h4>
-                    <p className="text-gray-600 dark:text-gray-300">w.fredlund@outlook.com</p>
+                    <a 
+                      href="mailto:w.fredlund@outlook.com"
+                      className="text-blue-600 hover:text-blue-800 dark:text-gray-300 dark:hover:text-gray-100 hover:underline"
+                    >
+                      w.fredlund@outlook.com
+                    </a>
                   </div>
                 </div>
                 
