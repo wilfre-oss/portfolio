@@ -1,7 +1,5 @@
 'use client';
 
-import { useId } from 'react';
-
 interface PlaceholderImageProps {
   width: number;
   height: number;
@@ -19,8 +17,6 @@ export default function PlaceholderImage({
   textColor = '#FFFFFF',
   className = '',
 }: PlaceholderImageProps) {
-  const id = useId();
-  
   return (
     <svg
       width={width}

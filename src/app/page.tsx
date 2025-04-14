@@ -61,7 +61,7 @@ export default function Home() {
                 As a quick problem-solver with an eye for detail, I thrive both in independent work and in team environments where collaboration and shared solutions are key.
               </p>
               <p className="text-lg mb-8">
-                When I'm not coding, you can find me exploring new technologies and applying my technical skills to real-world problems.
+                When I&apos;m not coding, you can find me exploring new technologies and applying my technical skills to real-world problems.
               </p>
               
               <div className="flex gap-4">
