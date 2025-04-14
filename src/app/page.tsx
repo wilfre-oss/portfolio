@@ -85,7 +85,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">My Projects</h2>
             <div className="h-1 w-20 bg-blue-600 mx-auto"></div>
             <p className="text-lg mt-6 max-w-2xl mx-auto">
-              Here are some of the projects I've worked on. Each project represents different skills and technologies.
+              Here are some of the projects I&apos;ve worked on. Each project represents different skills and technologies.
             </p>
           </div>
           
