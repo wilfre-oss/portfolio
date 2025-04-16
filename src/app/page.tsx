@@ -96,12 +96,7 @@ export default function Home() {
             {/* Project 1 */}
             <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform hover:-translate-y-2 flex flex-col">
               <div className="relative h-48">
-                <Image
-                  src="/placeholder-project1.svg"
-                  alt="Neural Network Trainer"
-                  fill
-                  className="object-cover"
-                />
+              <img src="https://socialify.git.ci/wilfre-oss/NN/image?font=Inter&language=1&name=1&owner=1&pattern=Overlapping+Hexagons&theme=Dark" alt="NN" width="640" height="320" />
               </div>
               <div className="p-6 flex-grow flex flex-col">
                 <h3 className="text-xl font-semibold mb-2">Neural Network Trainer</h3>
@@ -132,12 +127,7 @@ export default function Home() {
             {/* Project 2 */}
             <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform hover:-translate-y-2 flex flex-col">
               <div className="relative h-48">
-                <Image
-                  src="/placeholder-project2.svg"
-                  alt="Chess Bot"
-                  fill
-                  className="object-cover"
-                />
+              <img src="https://socialify.git.ci/wilfre-oss/chess/image?font=Inter&language=1&name=1&owner=1&pattern=Overlapping+Hexagons&theme=Dark" alt="chess" width="640" height="320" />
               </div>
               <div className="p-6 flex-grow flex flex-col">
                 <h3 className="text-xl font-semibold mb-2">Chess Bot</h3>
@@ -168,12 +158,7 @@ export default function Home() {
             {/* Project 3 */}
             <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform hover:-translate-y-2 flex flex-col">
               <div className="relative h-48">
-                <Image
-                  src="/placeholder-project3.svg"
-                  alt="Smartlight App"
-                  fill
-                  className="object-cover"
-                />
+                <img src="https://socialify.git.ci/wilfre-oss/Flashbang-app-repo/image?font=Inter&language=1&name=1&owner=1&pattern=Overlapping+Hexagons&theme=Dark" alt="Flashbang-app-repo" width="640" height="320" />
               </div>
               <div className="p-6 flex-grow flex flex-col">
                 <h3 className="text-xl font-semibold mb-2">Smartlight App</h3>
