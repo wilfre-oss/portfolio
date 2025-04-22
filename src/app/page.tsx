@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section className="relative flex items-center justify-center h-screen bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-950 dark:to-purple-950">
+      <section className="relative flex items-center justify-center h-screen bg-gradient-to-r from-blue-200 to-purple-300 dark:from-blue-950 dark:to-purple-950">
         <div className="text-center px-4 sm:px-6 lg:px-8 max-w-4xl">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
             Hi, I&apos;m <span className="text-blue-600 dark:text-blue-400">William Fredlund</span>
@@ -33,7 +33,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-white dark:bg-black">
+      <section id="about" className="py-20 bg-indigo-100 dark:bg-zinc-950">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
@@ -82,7 +82,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-900">
+      <section id="projects" className="py-20 bg-purple-100 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">My Projects</h2>
@@ -191,7 +191,7 @@ export default function Home() {
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="py-20 bg-white dark:bg-black">
+      <section id="skills" className="py-20 bg-indigo-100 dark:bg-zinc-950">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">My Skills</h2>
@@ -290,7 +290,7 @@ export default function Home() {
       
 
       {/* Education Section */}
-      <section id="education" className="py-20 bg-gray-50 dark:bg-gray-900">
+      <section id="education" className="py-20 bg-purple-100 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Education</h2>
@@ -308,7 +308,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-900">
+      <section id="contact" className="py-20 bg-indigo-100 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
@@ -319,7 +319,7 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
+            <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-lg shadow-lg">
               <h3 className="text-xl font-semibold mb-6">Send Me a Message</h3>
               <form 
                 action="https://formspree.io/f/myzeorov" 
